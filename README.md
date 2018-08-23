@@ -28,3 +28,8 @@ this project requires Python 3 and the requests package
 #if the above command fails because of requests module then we need to execute the below command
 
 'pipenv install requests'
+
+
+#Now lets move the find_dev file to a new dir and name that dir as devexp and follow the below steps
+'mkdir devexp'
+'pipenv run devexp/python find_dev.py'
